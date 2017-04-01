@@ -10,6 +10,7 @@ function changer(e) {
     var elem = document.getElementById("kk-" + key);
     elem.className += " playing";
     var player = document.getElementById("ss-" + key);
+    player.currentTime=0;
     player.play();
 
 
